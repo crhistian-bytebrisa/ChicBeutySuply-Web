@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Catálogo — chic beauty suply</title>
+<meta name="description" content="Catálogo completo de chic beauty suply — collares, aretes y pulseras en acero dorado y piedras naturales. Consulta precio y disponibilidad por WhatsApp.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+<!-- ===== Hilo dorado decorativo (motivo firma) ===== -->
+<svg class="thread" width="3" height="100%" viewBox="0 0 3 3000" preserveAspectRatio="none" aria-hidden="true">
+  <path d="M1.5 0 L1.5 3000" stroke="url(#threadGradient2)" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <defs>
+    <linearGradient id="threadGradient2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#C6A25D" stop-opacity="0"/>
+      <stop offset="8%" stop-color="#C6A25D" stop-opacity="0.55"/>
+      <stop offset="92%" stop-color="#C6A25D" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#C6A25D" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+</svg>
+
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="wordmark">
+      <span class="wordmark-top">chic beauty</span>
+      <span class="wordmark-bottom">suply</span>
+    </a>
+    <nav class="nav-links">
+      <a href="index.html#colecciones">Colecciones</a>
+      <a href="index.html#destacadas">Piezas</a>
+      <a href="index.html#nosotros">Nosotros</a>
+      <a href="index.html#contacto">Contacto</a>
+      <a href="catalogo.html" class="is-active">Catalogo</a>
+    </nav>
+    <a class="nav-ig" href="index.html#contacto" aria-label="Instagram">
+      <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.4">
+        <rect x="2.5" y="2.5" width="19" height="19" rx="5.5"/>
+        <circle cx="12" cy="12" r="4.6"/>
+        <circle cx="17.6" cy="6.4" r="1" fill="currentColor" stroke="none"/>
+      </svg>
+    </a>
+  </div>
+</header>
+
+<!-- ===== ENCABEZADO DEL CATALOGO ===== -->
+<section class="catalog-hero" id="top">
+  <div class="catalog-hero-inner reveal">
+    <p class="eyebrow">Catálogo completo</p>
+    <h1>Cada pieza,<br><em>de cerca</em>.</h1>
+    <p class="catalog-hero-sub">Explora la colección completa. Toca cualquier pieza para ver los detalles y escríbenos por WhatsApp para conocer precio y disponibilidad.</p>
+  </div>
+</section>
+
+<!-- ===== GRID DE PRODUCTOS ===== -->
+<section class="catalog-grid-section">
+  <div class="catalog-grid" id="catalogGrid">
+
+    <article class="product catalog-card reveal"
+      data-category="Categoria"
+      data-name="Nombre"
+      data-material="Material"
+      data-img="images/collar-corazon-sol-argolla.jpeg"
+      data-description="Datos del productos."
+      tabindex="0" role="button" aria-label="Ver detalles">
+      <div class="product-img" style="--img:url('images/collar-corazon-sol-argolla.jpeg')"></div>
+      <div class="product-info">
+        <p class="eyebrow catalog-card-eyebrow">Categoria</p>
+        <h3>Collar Corazón, Sol y Argolla</h3>
+        <p>Datos del productos.</p>
+      </div>
+    </article>
+
+    <article class="product catalog-card reveal"
+      data-category="Categoria"
+      data-name="Nombre"
+      data-material="Material"
+      data-img="images/collares-de-corazon.jpeg"
+      data-description="Datos del productos."
+      tabindex="0" role="button" aria-label="Ver detalles">
+      <div class="product-img" style="--img:url('images/collares-de-corazon.jpeg')"></div>
+      <div class="product-info">
+        <p class="eyebrow catalog-card-eyebrow">Categoria</p>
+        <h3>Collar Corazón Rubí</h3>
+        <p>Datos del productos.</p>
+      </div>
+    </article>
+
+    <article class="product catalog-card reveal"
+      data-category="Categoria"
+      data-name="Nombre"
+      data-material="Material"
+      data-img="images/collar.jpeg"
+      data-description="Datos del productos."
+      tabindex="0" role="button" aria-label="Ver detalles">
+      <div class="product-img" style="--img:url('images/collar.jpeg')"></div>
+      <div class="product-info">
+        <p class="eyebrow catalog-card-eyebrow">Categoria</p>
+        <h3>Collar Cadena Fina</h3>
+        <p>Datos del productos.</p>
+      </div>
+    </article>
+
+    <article class="product catalog-card reveal"
+      data-category="Categoria"
+      data-name="Nombre"
+      data-material="Material"
+      data-img="images/collar-rd-y-luna.jpeg"
+      data-description="Datos del productos."
+      tabindex="0" role="button" aria-label="Ver detalles">
+      <div class="product-img" style="--img:url('images/collar-rd-y-luna.jpeg')"></div>
+      <div class="product-info">
+        <p class="eyebrow catalog-card-eyebrow">Categoria</p>
+        <h3>Collar República Dominicana</h3>
+        <p>Datos del productos.</p>
+      </div>
+    </article>
+
+    <article class="product catalog-card reveal"
+      data-category="Categoria"
+      data-name="Nombre"
+      data-material="Material"
+      data-img="images/aretes-y-collar.jpeg"
+      data-description="Datos del productos."
+      tabindex="0" role="button" aria-label="Ver detalles">
+      <div class="product-img" style="--img:url('images/aretes-y-collar.jpeg')"></div>
+      <div class="product-info">
+        <p class="eyebrow catalog-card-eyebrow">Categoria</p>
+        <h3>Set Argollas y Cadena</h3>
+        <p>Datos del productos.</p>
+      </div>
+    </article>
+
+    <article class="product catalog-card reveal"
+      data-category="Categoria"
+      data-name="Nombre"
+      data-material="Material"
+      data-img="images/pulseras.jpeg"
+      data-description="Datos del productos."
+      tabindex="0" role="button" aria-label="Ver detalles">
+      <div class="product-img" style="--img:url('images/pulseras.jpeg')"></div>
+      <div class="product-info">
+        <p class="eyebrow catalog-card-eyebrow">Categoria</p>
+        <h3>Pulsera Piedras Naturales</h3>
+        <p>Datos del productos.</p>
+      </div>
+    </article>
+
+    <article class="product catalog-card reveal"
+      data-category="Categoria"
+      data-name="Nombre"
+      data-material="Material"
+      data-img="images/pulseras-gladiador.jpeg"
+      data-description="Datos del productos."
+      tabindex="0" role="button" aria-label="Ver detalles">
+      <div class="product-img" style="--img:url('images/pulseras-gladiador.jpeg')"></div>
+      <div class="product-info">
+        <p class="eyebrow catalog-card-eyebrow">Categoria</p>
+        <h3>Pulseras Gladiador</h3>
+        <p>Datos del productos.</p>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<!-- ===== MODAL DE PRODUCTO ===== -->
+<div class="modal-overlay" id="modalOverlay">
+  <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <button class="modal-close" id="modalClose" aria-label="Cerrar">&times;</button>
+    <div class="modal-img" id="modalImg"></div>
+    <div class="modal-body">
+      <p class="eyebrow" id="modalCategory">Colección</p>
+      <h3 id="modalTitle">Nombre de la pieza</h3>
+      <p id="modalDesc">Descripción de la pieza.</p>
+      <p class="modal-material" id="modalMaterial">Acero dorado</p>
+      <div class="modal-actions">
+        <a class="btn btn-primary" id="modalWhatsapp" href="#" target="_blank" rel="noopener">Preguntar por WhatsApp</a>
+        <button class="btn btn-ghost" id="modalCloseBtn" type="button">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <span class="wordmark small">chic beauty suply</span>
+    <p>&copy; <span id="year"></span> chic beauty suply — Joyería en acero inoxidable y piedras naturales.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+<script src="catalogo.js"></script>
+</body>
+</html>
